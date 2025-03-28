@@ -1,6 +1,10 @@
 pipeline {
     agent any 
 
+    triggers {
+        githubPush()  // 💥 This triggers the build on push events from GitHub
+    }
+
     environment {
         TOOL_DIR = "${WORKSPACE}\\ci-cd-tools"
     }
