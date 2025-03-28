@@ -39,11 +39,11 @@ pipeline {
             }
         }
 
-        // stage('Debug Variables') {
-        //     steps { 
-        //         bat "echo BUILD_TAG=${BUILD_TAG}"
-        //     }
-        // }
+        stage('Debug Variables') {
+            steps { 
+                bat "echo BUILD_TAG=${BUILD_TAG}"
+            }
+        }
 
         // stage('Test-Release') { 
         //     steps {
