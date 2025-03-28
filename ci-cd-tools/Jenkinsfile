@@ -31,13 +31,13 @@ pipeline {
         //         }
         //     }
         // }
-        // stage('Flash-Debug') { 
-        //     steps {
-        //         // bat "${TOOL_DIR}\\flash.bat $params.DUT_STLINK_sn ${WORKSPACE}\\Debug\\CICDBadweh.bin"
-        //         bat "\"${TOOL_DIR}\\flash.bat\" \"${params.DUT_STLINK_sn}\" \"${WORKSPACE}\\Debug\\CICDBadweh.bin\""
+        stage('Flash-Debug') { 
+            steps {
+                // bat "${TOOL_DIR}\\flash.bat $params.DUT_STLINK_sn ${WORKSPACE}\\Debug\\CICDBadweh.bin"
+                bat "\"${TOOL_DIR}\\flash.bat\" \"${params.DUT_STLINK_sn}\" \"${WORKSPACE}\\Debug\\tmphm_CICD.bin\""
 
-        //     }
-        // }
+            }
+        }
 
         // stage('Debug Variables') {
         //     steps { 
