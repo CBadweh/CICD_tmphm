@@ -53,7 +53,7 @@ pipeline {
         //     }
         // }
   
-        // gpio test
+        // tmphm test
         stage('Test-Release') { 
             steps {
                 bat "python \"${TOOL_DIR}\\tmphm_serial_interface.py\"" // test hardware interface
