@@ -45,6 +45,13 @@ pipeline {
             }
         }
 
+        // gpio test
+        // stage('Test-Release') { 
+        //     steps {
+        //         bat "python \"${TOOL_DIR}\\base-hilt.py\" --dut-serial=${params.DUT_console} --sim-serial=none --tver=\"${BUILD_TAG}-Release\" --jfile=\"test-results-release.xml\""
+        //         junit 'test-results-release.xml'
+        //     }
+        // }
   
         // gpio test
         stage('Test-Release') { 
