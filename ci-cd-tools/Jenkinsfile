@@ -56,7 +56,9 @@ pipeline {
         // gpio test
         stage('Test-Release') { 
             steps {
-                bat "python \"${TOOL_DIR}\\tmphm_serial_interface.py\""
+                bat "python \"${TOOL_DIR}\\tmphm_serial_interface.py\"" // test hardware interface
+                bat "python \"${TOOL_DIR}\\test_tmphm_serial.py.py\""   // test Integration and System HIL
+                // bat "python \"${TOOL_DIR}\\test_tmphm_age_reset.py\""
             }
         }
        
