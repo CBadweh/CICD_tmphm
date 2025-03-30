@@ -59,13 +59,12 @@ pipeline {
         //         junit 'test-results-release.xml'
         //     }
         // }
-        // test
+        // gpio test
         stage('Test-Release') { 
             steps {
-                bat "python \"${TOOL_DIR}\\tmphm_serial_interface.py\""       
-                }
+                bat "python \"${TOOL_DIR}\\tmphm_serial_interface.py\"
+            }
         }
        
-
     }
 }
