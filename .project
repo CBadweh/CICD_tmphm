@@ -29,16 +29,4 @@
 		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>app1</name>
-			<type>2</type>
-			<location>C:/Users/Sheen/Desktop/Embedded_System/I2C_tmphm/i2c-class-1-code-master/app1</location>
-		</link>
-		<link>
-			<name>modules</name>
-			<type>2</type>
-			<location>C:/Users/Sheen/Desktop/Embedded_System/I2C_tmphm/i2c-class-1-code-master/modules</location>
-		</link>
-	</linkedResources>
 </projectDescription>

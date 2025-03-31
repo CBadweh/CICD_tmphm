@@ -8,3 +8,5 @@
 *.o
 *.su
 test-results*.xml
+jenkins-cli.jar
+ngrok.exe
